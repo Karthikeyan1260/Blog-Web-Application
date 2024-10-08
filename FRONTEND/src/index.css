@@ -1,0 +1,25 @@
+.card {
+  transition: box-shadow 0.1s ease, border-color 0.1s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.267); /* Red shadow */
+  border-color: rgb(255, 255, 255); /* Red border */
+  transform: translate3d( 0px, -5px, -10px);
+}
+
+
+body {
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+  color: #000000; /* Ensure text is visible on gradient */
+}
+
